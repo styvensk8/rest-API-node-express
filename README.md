@@ -36,8 +36,16 @@ cd db
 docker-compose up -d
 ```
 
-- una vez haya ejecutado los comandos, abrir en un navegador la ruta [localhost:8080](https://localhost:8080)
+- una vez haya ejecutado los comandos, abrir en un navegador la ruta [localhost:8080](http://localhost:8080/)
 - Ingrese con las credenciales que se encuentran en el archivo docker-compose.yml en la ruta rest-API-node-express/db/docker-compose.yml
+
+## Rutas
+
+- /specialtys
+- /documents
+- /doctors
+- /users
+- /appointments
 
 ### Concideraciones generales
 
