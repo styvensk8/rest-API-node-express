@@ -5,7 +5,7 @@ const router = Router()
 
 router.get("/", async (req, res) => {
     const [result] = await pool.query('SELECT * FROM type_document')
-    res.json(result)
+    res.send(result)
 })
 
 export default router

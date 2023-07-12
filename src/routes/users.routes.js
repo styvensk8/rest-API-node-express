@@ -1,11 +1,18 @@
-import { Router } from "express"
-import { pool } from "../connection.js"
+import { Router } from 'express';
+import {
+	viewUser,
+	viewUsers,
+	createUser,
+	deleteUser,
+	updateUser
+} from '../services/user.service.js';
 
-const router = Router()
+const router = Router();
 
-router.get("/", async (req, res) => {
-    const [result] = await pool.query('SELECT * FROM user')
-    res.json(result)
-})
+router.get('/:id', viewUser);
+router.get('/', viewUsers);
+router.post('/', createUser);
+router.delete('/:id', deleteUser);
+router.patch('/:id', updateUser);
 
-export default router
+export default router;
