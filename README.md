@@ -1,6 +1,6 @@
 # Express and MYSQL
 
-Rest API de [node.js](https://nodejs.org/es) utilizando [express](https://expressjs.com/) y conectada aun abase de datos en [MYSQL](https://www.mysql.com/).
+Rest API de [node.js](https://nodejs.org/es) utilizando [express](https://expressjs.com/) y conectada a una base de datos en [MYSQL](https://www.mysql.com/).
 
 ## Requisitos del sistema
 
